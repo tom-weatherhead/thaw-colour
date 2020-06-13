@@ -1,11 +1,11 @@
 {
 	"name": "thaw-colour",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "A common library that provides basic colour data and functionality.",
 	"keywords": [
 		"TypeScript"
 	],
-	"private": true,
+	"private": false,
 	"homepage": "https://github.com/tom-weatherhead/thaw-colour#readme",
 	"repository": "github:tom-weatherhead/thaw-colour",
 	"bugs": {
