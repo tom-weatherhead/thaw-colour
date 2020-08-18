@@ -30,7 +30,7 @@
 
 // From Chart.js :
 
-const chartJsColours: any = {
+const chartJsColours: Record<string, number[]> = {
 	aliceblue: [240, 248, 255],
 	antiquewhite: [250, 235, 215],
 	aqua: [0, 255, 255],
@@ -280,7 +280,7 @@ const selectedChartJsColours = [
 	'yellow'
 ];
 
-export const Colours: any = {
+export const Colours: Record<string, string> = {
 	// black: getRGBString('black'),
 	// blue: getRGBString('blue'),
 	// chocolate: getRGBString('chocolate'),

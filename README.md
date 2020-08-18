@@ -13,5 +13,9 @@ A common library that provides basic colour data and functionality.
 
 <!-- [![jest](https://jestjs.io/img/jest-badge.svg)](https://github.com/facebook/jest) -->
 
+## Features
+
+- Self-contained: No run-time package dependencies!
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
