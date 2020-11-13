@@ -182,6 +182,50 @@ const chartJsColours: Record<string, number[]> = {
 	yellowgreen: [154, 205, 50]
 };
 
+// **** BEGIN: 4-bit (VGA?) palette ****
+
+// This array enforces the order of the colours in the palette.
+
+export const fourBitPaletteColourNames = [
+	'Black',
+	'Maroon',
+	'Green',
+	'Olive',
+	'Navy',
+	'Purple',
+	'Teal',
+	'Silver',
+	'Grey',
+	'Red',
+	'Lime',
+	'Yellow',
+	'Blue',
+	'Fuchsia',
+	'Aqua',
+	'White'
+];
+
+export const fourBitPalette: Record<string, string> = {
+	Black: '#000000',
+	Maroon: '#800000',
+	Green: '#008000',
+	Olive: '#808000',
+	Navy: '#000080',
+	Purple: '#800080',
+	Teal: '#008080',
+	Silver: '#c0c0c0',
+	Grey: '#808080',
+	Red: '#ff0000',
+	Lime: '#00ff00',
+	Yellow: '#ffff00',
+	Blue: '#0000ff',
+	Fuchsia: '#ff00ff',
+	Aqua: '#00ffff',
+	White: '#ffffff'
+};
+
+// **** END: 4-bit (VGA?) palette ****
+
 /*
 const transparent = 'rgba(0, 0, 0, 0)';
 
