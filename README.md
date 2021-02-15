@@ -24,7 +24,13 @@ Obligatory BadgeFest:
 [![tested with jest][jest-badge-image]][jest-url]
 [![code style: prettier][prettier-badge-image]][prettier-url]
 [![license][license-badge-image]][license-url]
-[![FOSSA Status][fossa-badge-image]][fossa-badge-url]
+
+## Features
+
+- Self-contained: No run-time package dependencies!
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
 [build-status-badge-image]: https://secure.travis-ci.org/tom-weatherhead/thaw-colour.svg
 [build-status-url]: https://travis-ci.org/tom-weatherhead/thaw-colour
@@ -67,13 +73,4 @@ Obligatory BadgeFest:
 [prettier-badge-image]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square
 [prettier-url]: https://github.com/prettier/prettier
 [license-badge-image]: https://img.shields.io/github/license/mashape/apistatus.svg
-[license-url]: https://github.com/tom-weatherhead/thaw-macd/blob/master/LICENSE
-[fossa-badge-image]: https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fmoment%2Fmoment.svg?type=shield
-[fossa-badge-url]: https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fmoment%2Fmoment?ref=badge_shield
-
-## Features
-
-- Self-contained: No run-time package dependencies!
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[license-url]: https://github.com/tom-weatherhead/thaw-colour/blob/master/LICENSE

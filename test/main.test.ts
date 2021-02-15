@@ -2,7 +2,7 @@
 
 'use strict';
 
-import * as engine from '../lib/main';
+import * as engine from '..';
 
 test('setAlphaInColourString test', () => {
 	// Arrange
