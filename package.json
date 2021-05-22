@@ -35,7 +35,7 @@
 	"scripts": {
 		"all": "npm run rebuild-online && npm pack && npm run deploy",
 		"rebuild-offline": "npm run clean-offline && npm run build-and-test",
-		"clean-offline": "rm -rf coverage",
+		"clean-offline": "rm -rf coverage && rm -rf dist",
 		"rebuild-online": "npm run clean-online && npm i && npm run build-and-test",
 		"clean-online": "npm run clean-offline && rm -rf node_modules && rm -f package-lock.json",
 		"build-and-test": "npm run prettier-check && npm run lint && npm run build && npm run rollup && npm test",
@@ -46,7 +46,7 @@
 		"// build": "rm -rf dist; tsc",
 		"build": "tsc",
 		"rollup": "rollup --config",
-		"test": "rm -rf coverage; jest --detectOpenHandles --forceExit",
+		"test": "jest --detectOpenHandles --forceExit",
 		"deploy": "eval mv $npm_package_name-$npm_package_version.tgz $(echo $npm_package_config_deploy_target_dir)/",
 		"prepare": "npm run build",
 		"prepublishOnly": "npm test && npm run lint",
