@@ -356,8 +356,7 @@ export function setAlphaInColourString(
 		'^rgb\\(([0-9]{1,3}),\\s*([0-9]{1,3}),\\s*([0-9]{1,3})\\)$';
 	const regexRGBA =
 		'^rgba\\(([0-9]{1,3}),\\s*([0-9]{1,3}),\\s*([0-9]{1,3}),\\s*[.0-9]+\\)$';
-	const match =
-		colourString.match(regexRGB) || colourString.match(regexRGBA);
+	const match = colourString.match(regexRGB) || colourString.match(regexRGBA);
 
 	return match
 		? `rgba(${match[1]}, ${match[2]}, ${match[3]}, ${alpha})`
