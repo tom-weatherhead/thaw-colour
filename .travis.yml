@@ -23,6 +23,6 @@ before_script:
 script:
   - npm run prettier-check
   - npm run lint
-  - if [ "$TRAVIS_OS_NAME" != "windows" ]; then npm run build && npm test ; fi
+  - if [ "$TRAVIS_OS_NAME" != "windows" ]; then npm run build && npm run rollup && npm test ; fi
 after_script:
   - if [ "$TRAVIS_OS_NAME" = "linux" ]; then ./cc-test-reporter after-build -t lcov --debug --exit-code $TRAVIS_TEST_RESULT ; fi
